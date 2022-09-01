@@ -1,0 +1,16 @@
+apiKeys:
+  Pagerduty: 'your_pd_token'
+
+pagerdutyConfig:
+  serviceIds: 'your_pd_service_id'
+
+n9Config:
+  url: 'https://app.nobl9.com'
+  org: 'your_n9_org'
+  project: 'your_n9_project'
+  annotationName: 'your_n9_annotation_name'
+  annotationData: 'your_n9_annotation_desc'
+  sloName: 'your_n9_slo_name'
+  # Client info can be grabbed from your sloctl file
+  clientId: 'you_clientid'
+  clientSecret: 'your_clientsecret'
