@@ -1,0 +1,12 @@
+- apiVersion: n9/v1alpha
+  kind: Annotation
+  metadata:
+    name: IC_ID
+    project: N9_PROJECT
+  spec:
+    description: test
+    endTime: END_TIME
+    slo: SLO_NAME
+    startTime: START_TIME
+  status:
+    updatedAt: CURRENT_TIME
